@@ -15,15 +15,24 @@
 	
 	<div class="container" >
         <h1 class="heading">TALENT AI</h1>
-		<p>Upload pdf only</p>
+		<p style="font-style: italic;">*Upload pdf only</p>
 		<input type="file" id="file" accept="application/pdf"  hidden>
 		<div class="img-area" data-img="">
 			<i class='bx bxs-cloud-upload icon'></i>
 			<h3>Upload File</h3>
 		</div>
-		<button class="select-image">Upload</button>
-        <button class="submit-image">Submit</button>
+		<button class="select-image">Upload Resume</button>
+        <button class="submit-image">Generate Job Recommendation</button>
+		<br><br>
+		<ul style="font-weight: bold; font-style: italic;">Database Disclaimer : </ul>
+		<li>Database of active job listings used for Job recommendations was extracted on 23/03/2023 and it is possible that some job openings might become inactive.</li>   
+		<li>Database size is only 10,000 jobs and it is possible that you might feel some recommendations are not extremely relevant but that is a function of database size limitation.</li>   
+		<li>
+			For this demo we have not utilised certain constraints for e.g. years of work experience
+		</li>  
+		
 	</div>
+	
 	
 	<script src="script.js"></script>
 </body>
